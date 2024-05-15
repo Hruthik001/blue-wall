@@ -42,12 +42,14 @@
 @media only screen and (max-width: 768px) {
 
     .hero_main{
-        padding-bottom: 0;
+        padding-bottom: 0rem;
     }
 
     .logo{
         height: 10rem;
-        margin: 0;
+        padding-left: -4rem;
+        margin-left: -1.8rem;
+        margin: -1.9rem;
     }
 
     .hero_main_logo{
@@ -93,22 +95,23 @@
 @media only screen and (max-width: 768px) {
     .main{
         margin: 1rem;
-
+        padding-bottom: 1rem;
     }
 
     .main_headline{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         margin: 1rem;
         margin-top: 0;
     }
 
     .main_para{
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         margin-right: 0rem;
+        margin-right: 1rem;
     }
 
     .pros{
-        font-size: 0.5rem;
+        font-size: 0.3rem;
     }
 }
 
