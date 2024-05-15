@@ -334,33 +334,38 @@ h4{
         margin-left: 1rem;
         gap: 1rem;
         margin-bottom: 0;
+        width: calc(45% - 1rem);
     }
 
     .imgs_a{
         height: 6.4rem;
         width: auto;
-        margin: 1rem;
+        margin: 1rem; 
+        width: calc(45% - 1rem);
     }
 
     .images_a{
         height: 6.4rem;
         width: auto;
         margin-left:0rem;
+        width: calc(45% - 1rem);
     }
     
     .images_c{
         height: 7rem;
         width: 11.5rem;
+        width: calc(45% - 1rem);
     }
     
     .images_b{
         height: 7rem;
-        width: auto;
+        width: calc(45% - 1rem);
     }
     
     .images_d{
         height: 8rem;
         width: auto;
+        width: calc(45% - 1rem);
     }
 }
 
