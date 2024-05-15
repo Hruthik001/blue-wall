@@ -167,10 +167,41 @@ h3{
 
     }
 
+    .image_para{
+        margin: 2rem;
+    }
+
     .house_img{
         height: 6rem;
         width: auto;
         margin: 1rem;
+        margin-top: rem;
+        padding-top: -3rem;
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+
+    .icons{
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .small_icons{
+        height: 1rem;
+        width: auto;
+        margin-top: 0;
+    }
+
+    .small_icons_1{
+        font-size: 0.4rem;
+        margin-left: -0.4rem;
+        margin-right: 0%;
+    }
+
+    h3{
+        font-size: 0.5rem;
     }
 
 }
