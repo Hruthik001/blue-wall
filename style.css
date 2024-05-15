@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 .hero_main{
@@ -90,7 +91,25 @@
 }
 
 @media only screen and (max-width: 768px) {
-    margin
+    .main{
+        margin: 1rem;
+
+    }
+
+    .main_headline{
+        font-size: 0.5rem;
+        margin: 1rem;
+        margin-top: 0;
+    }
+
+    .main_para{
+        font-size: 0.5rem;
+        margin-right: 0rem;
+    }
+
+    .pros{
+        font-size: 0.5rem;
+    }
 }
 
 .main_image{
