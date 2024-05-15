@@ -186,13 +186,13 @@ h3{
 
     h1{
         font-size: 1rem;
-        margin-left: -4rem;
+        margin-left: 0rem;
     }
 
     .icons{
         margin-top: 1rem;
         gap: 1rem;
-        margin-left: -4rem;
+        margin-left: -1rem;
     }
 
     .small_icons{
@@ -291,6 +291,33 @@ h4{
     gap: 1rem;
 }
 
+.imgs_a{
+    margin: 4rem;
+    display: flex;
+    height: 20.5rem; 
+    width: auto;
+    gap: 1rem;
+}
+
+.images_a{
+    height: 20.5rem;
+    width: auto;
+    margin-top: 0;
+}
+
+.images_c{
+    width: 35rem;
+    height: auto;
+}
+
+.images_b{
+    width: 42rem;
+}
+
+.images_d{
+    width: 30rem;
+}
+
 @media only screen and (max-width: 768px) {
     .house_images_para{
         margin-top: 3rem;
@@ -302,7 +329,6 @@ h4{
         height: 5rem;
         width: auto;
         margin-left: 2rem;
-        
     }
 }
 
