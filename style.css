@@ -130,10 +130,13 @@
     border-radius: 2rem;
 }
 
-.house_image
+.house_img{
+    height: 15rem;
+    margin: 1rem;
+}
 
 .image{
-    margin: 2rem;
+    margin: rem;
     border-radius: 1rem;
     border-radius: 2rem;
 }
@@ -326,9 +329,12 @@ h4{
     }
 
     .imgs{
-        height: 5rem;
+        height: 6.5rem;
         width: auto;
-        margin-left: 2rem;
+        margin-left: 1rem;
+        gap: 1.5rem;
     }
+
+    .imgs_a{}
 }
 
