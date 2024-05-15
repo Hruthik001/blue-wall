@@ -332,9 +332,35 @@ h4{
         height: 6.5rem;
         width: auto;
         margin-left: 1rem;
-        gap: 1.5rem;
+        gap: 1rem;
+        margin-bottom: 0;
     }
 
-    .imgs_a{}
+    .imgs_a{
+        height: 6.8rem;
+        width: auto;
+        margin: 1rem;
+    }
+
+    .images_a{
+        height: 6.8rem;
+        width: auto;
+        margin-left:0rem;
+    }
+    
+    .images_c{
+        height: 7rem;
+        width: 11.5rem;
+    }
+    
+    .images_b{
+        height: 7.8rem;
+        width: auto;
+    }
+    
+    .images_d{
+        height: 8rem;
+        width: auto;
+    }
 }
 
