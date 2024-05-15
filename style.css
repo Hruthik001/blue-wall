@@ -244,6 +244,32 @@ h4{
     transition: 0.2s;
 }
 
+@media only screen and (max-width: 768px) {
+    .hero_mid{
+        gap: 10rem;
+        margin-bottom: -1rem;
+    }
+
+    .big_icons{
+        height: 3rem;
+    }
+
+    .hero_mid_a{
+        font-size: 0.5rem;
+    }
+
+    h4{
+        font-size: 0.8rem;
+    }
+
+    .get_start_button{
+        font-size: 0.8rem;
+        border-radius: 0.6rem;
+        padding: 0.8rem;
+    }
+}
+
+
 .house_images_para{
     text-align: center;
     margin-top: 5rem;
