@@ -284,3 +284,15 @@ h4{
     gap: 1rem;
 }
 
+@media only screen and (max-width: 768px) {
+    .house_images_para{
+        margin-top: 3rem;
+    }
+
+    .imgs{
+        height: 7rem;
+        width: auto;
+        margin-left: 2rem;
+    }
+}
+
