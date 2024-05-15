@@ -95,18 +95,19 @@
 @media only screen and (max-width: 768px) {
     .main{
         margin: 1rem;
+        padding-top: -1rem;
         padding-bottom: 1rem;
     }
 
     .main_headline{
         font-size: 0.4rem;
         margin: 1rem;
-        margin-top: 0;
+        margin-top: -1rem;
     }
 
     .main_para{
         font-size: 0.3rem;
-        margin-right: 0rem;
+        margin-top: 0rem;
         margin-right: 1rem;
     }
 
@@ -123,6 +124,8 @@
     background-color: #015c92;
     border-radius: 2rem;
 }
+
+.house_image
 
 .image{
     margin: 2rem;
@@ -159,6 +162,18 @@ h3{
     font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 768px) {
+    .main_image{
+
+    }
+
+    .house_img{
+        height: 6rem;
+        width: auto;
+        margin: 1rem;
+    }
+
+}
 .hero_mid{
     margin: 2rem;
     display: flex;
