@@ -1,0 +1,192 @@
+*{
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hero_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.1px;
+    border-radius: 2rem 2rem 0 0;
+    background-color: lightgray;
+}
+
+.hero_main_logo{
+    margin: 0%;
+    margin-left: 3rem;
+    padding: 0%;
+}
+
+.hero_main_home{
+    display: inline-block;
+    margin: 1rem;
+    flex-direction: row;
+    color: black;
+}
+
+.contact_button{
+    padding: 0.5rem;
+    border-radius: 1rem 0 1rem 0; 
+    background-color: #052c42;
+    color: white;
+    margin-right: 3rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .hero_main{
+        padding-bottom: 0;
+    }
+
+    .logo{
+        height: 10rem;
+        margin: 0;
+    }
+
+    .hero_main_logo{
+        margin: 0;
+    }
+
+    .contact_button{
+        font-size: 0.8em;
+        padding: 0.5rem;
+        margin-right: 0;
+    }
+}
+
+.main{
+    margin:1rem;
+    background-color: #015c92;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.main_headline{
+    margin: 1rem;
+    margin-left: 4rem;
+    padding-top: 2rem;
+    color: white;
+}
+
+.main_para{
+    margin-right: 4rem;
+    margin-top: 2rem;
+    color: #fcd500;
+}
+
+.para{
+    margin: 0.5rem;
+    color: #929292;
+}
+
+@media only screen and (max-width: 768px) {
+    margin
+}
+
+.main_image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    background-color: #015c92;
+    border-radius: 2rem;
+}
+
+.image{
+    margin: 2rem;
+    border-radius: 1rem;
+    border-radius: 2rem;
+}
+
+.image_para{
+    margin: 1rem;
+    color: white;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+.icons{
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.small_icons{
+    height: 4rem;
+    width: auto;
+}
+
+.small_icons_1{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+}
+
+h3{
+    color: #fcd500;
+    font-size: 1.5rem;
+}
+
+.hero_mid{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 25rem;
+}
+
+.hero_mid_a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    color: #222222;
+}
+
+.get_start{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.get_start_button{
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: white;
+    background-color: #fcd600c2;
+    border-radius: 1rem;
+}
+
+.get_start:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.house_images_para{
+    text-align: center;
+    margin-top: 5rem;
+    color: #222222;
+}
+
+.imgs{
+    margin: 4rem;
+    display: flex;
+    height: 20rem;
+    width: auto;
+    gap: 1rem;
+}
+
